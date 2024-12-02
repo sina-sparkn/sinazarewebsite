@@ -2,7 +2,7 @@
   <div>
     <div class="fixed top-6 right-6">
       <div class="flex flex-col items-center gap-5">
-        <button @click="changeTheme" class="scale-[2] w-6">⚫︎</button>
+        <button @click="changeTheme" class="scale-[2] w-6">⬤</button>
         <button @click="changeText" class="px-2">Fa</button>
       </div>
     </div>
@@ -85,7 +85,7 @@ const colorMode = useColorMode();
 
 function changeTheme(event) {
   if (colorMode.preference === "light") {
-    event.target.textContent = "⚫︎";
+    event.target.textContent = "⬤";
     colorMode.preference = "dark";
   } else {
     event.target.textContent = "◗";
