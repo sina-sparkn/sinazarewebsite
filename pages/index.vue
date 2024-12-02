@@ -83,12 +83,10 @@ const { setLocale } = useI18n();
 
 const colorMode = useColorMode();
 
-function changeTheme(event) {
+function changeTheme() {
   if (colorMode.preference === "light") {
-    event.target.textContent = "⬤";
     colorMode.preference = "dark";
   } else {
-    event.target.textContent = "◗";
     colorMode.preference = "light";
   }
 }
