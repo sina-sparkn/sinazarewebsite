@@ -2,7 +2,6 @@
   <div class="px-6">
     <NuxtLayout>
       <Navbar />
-      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>

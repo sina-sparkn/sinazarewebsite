@@ -3,24 +3,32 @@
     "id": 1,
     "projectName": "Moonink",
     "alternativeName": "Web3 Shopping Dapp",
-    "url": "https://moonink.vercel.app/"
+    "url": "https://moonink.vercel.app/",
+    "tech": "NextJs",
+    "year": 2022
   },
   {
     "id": 2,
     "projectName": "SF-Symbols",
     "alternativeName": "React Icon Collection",
-    "url": "https://resilient-croquembouche-38b9a5.netlify.app/"
+    "url": "https://resilient-croquembouche-38b9a5.netlify.app/",
+    "tech": "NextJs",
+    "year": 2022
   },
   {
     "id": 3,
     "projectName": "Last Portfolio Website",
     "alternativeName": "2023 Edition of My Website",
-    "url": "https://endearing-ganache-e75b6c.netlify.app/"
+    "url": "https://endearing-ganache-e75b6c.netlify.app/",
+    "tech": "NextJs",
+    "year": 2022
   },
   {
     "id": 4,
     "projectName": "Gazar Machine",
     "alternativeName": "",
-    "url": "https://heroic-croquembouche-d56bbe.netlify.app/"
+    "url": "https://heroic-croquembouche-d56bbe.netlify.app/",
+    "tech": "NextJs",
+    "year": 2022
   }
 ]
