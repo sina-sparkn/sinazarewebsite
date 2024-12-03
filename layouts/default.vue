@@ -1,21 +1,31 @@
 <template>
   <div :class="{ 'fade-in': showContent }">
-    <NuxtPage />
+    <Preloader :duration="2000" v-if="showPreloader" />
+    <div v-else>
+      <NuxtPage />
+    </div>
   </div>
 </template>
 
 <script>
+import Preloader from "~/components/Preloader.vue";
+
 export default {
+  components: {
+    Preloader,
+  },
   data() {
     return {
+      showPreloader: true,
       showContent: false,
     };
   },
   mounted() {
-    // Delay to simulate loading and then show content
+    // Simulate the loading process and hide preloader after a delay
     setTimeout(() => {
+      this.showPreloader = false;
       this.showContent = true;
-    }, -1000); // Adjust the delay as needed
+    }, 2000); // Match the duration in Preloader
   },
 };
 </script>
