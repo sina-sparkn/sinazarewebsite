@@ -25,7 +25,7 @@ export default {
     setTimeout(() => {
       this.showPreloader = false;
       this.showContent = true;
-    }, 2000); // Match the duration in Preloader
+    }, 0); // Match the duration in Preloader
   },
 };
 </script>
