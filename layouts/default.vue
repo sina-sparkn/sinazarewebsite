@@ -15,7 +15,7 @@ export default {
     // Delay to simulate loading and then show content
     setTimeout(() => {
       this.showContent = true;
-    }, 0); // Adjust the delay as needed
+    }, -1000); // Adjust the delay as needed
   },
 };
 </script>
