@@ -3,14 +3,21 @@
     <p class="text-xl mb-10">
       {{ $t("projectsText") }} ({{ jsonData.length }})
     </p>
-    <ul class="space-y-1">
-      <li
-        class="hover:underline hover:underline-offset-2 text-5xl"
-        v-for="(item, index) in jsonData"
-        :key="index"
-        :item="item"
-      >
-        <a :href="item.url" target="_blank" rel="noopener noreferrer">
+    <ul class="flex flex-col gap-7">
+      <li v-for="(item, index) in jsonData" :key="index" :item="item">
+        <div
+          class="flex items-center gap-1.5 text-zinc-600 text-base md:text-lg"
+        >
+          <p>{{ item.year }}</p>
+          <span>•</span>
+          <p>{{ item.status }}</p>
+        </div>
+        <a
+          class="hover:underline hover:underline-offset-2 text-5xl"
+          :href="item.url"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {{ item.projectName }}
         </a>
       </li>
