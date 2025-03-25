@@ -10,7 +10,9 @@
         >
           <p>{{ item.year }}</p>
           <span>•</span>
-          <p>{{ item.status }}</p>
+          <p :class="{ 'animate-pulse': item.status === 'Ongoing...' }">
+            {{ item.status }}
+          </p>
         </div>
         <a
           class="hover:underline hover:underline-offset-2 text-5xl"
