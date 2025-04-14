@@ -1,12 +1,5 @@
 <template>
   <div>
-    <div class="fixed top-6 right-6">
-      <div class="flex flex-col items-center gap-5">
-        <button @click="changeTheme" class="scale-[2] w-6">⬤</button>
-        <!-- <button @click="changeText" class="px-2">Fa</button> -->
-      </div>
-    </div>
-
     <div class="w-full flex flex-col md:flex-row mt-10">
       <div class="lg:w-1/2 w-full md:fixed">
         <div class="text-6xl md:text-7xl font-bold">
@@ -16,11 +9,13 @@
       </div>
       <div class="w-2/5 hidden md:block" />
       <div class="lg:w-1/2 w-full mt-36 lg:mt-0 right-0">
-        <h1>
-          <div class="text-6xl font-bold">
-            {{ $t("headerText") }}
-          </div>
-        </h1>
+        <div class="flex justify-between items-center w-full">
+          <h1>
+            <div class="text-6xl font-bold">
+              {{ $t("headerText") }}
+            </div>
+          </h1>
+        </div>
         <Works />
 
         <div class="mt-36 hover:underline hover:underline-offset-2">
