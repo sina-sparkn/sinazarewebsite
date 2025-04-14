@@ -1,7 +1,7 @@
 <template>
   <div class="fixed right-10 top-10">
     <div class="gap-5">
-      <button @click="changeTheme" class="scale-[2]">⬤</button>
+      <button @click="changeTheme" class="scale-[2.2]">⬤</button>
     </div>
   </div>
   <div class="px-6">

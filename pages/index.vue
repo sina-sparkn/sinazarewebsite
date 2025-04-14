@@ -3,18 +3,18 @@
     <div class="w-full flex flex-col md:flex-row mt-10">
       <div class="lg:w-1/2 w-full md:fixed">
         <div class="text-6xl md:text-7xl font-bold">
-          <div>{{ $t("myName") }}</div>
-          <div class="text-xl mt-1">• {{ $t("underNameText") }}</div>
+          <h1 class="cursor-default">{{ $t("myName") }}</h1>
+          <p class="text-xl mt-1 cursor-default">• {{ $t("underNameText") }}</p>
         </div>
       </div>
       <div class="w-2/5 hidden md:block" />
       <div class="lg:w-1/2 w-full mt-36 lg:mt-0 right-0">
         <div class="flex justify-between items-center w-full">
-          <h1>
-            <div class="text-6xl font-bold">
+          <h2>
+            <div class="text-6xl font-bold cursor-default">
               {{ $t("headerText") }}
             </div>
-          </h1>
+          </h2>
         </div>
         <Works />
 
@@ -26,6 +26,15 @@
             class="text-5xl"
             >{{ $t("resumeText") }}</a
           >
+        </div>
+
+        <div class="flex flex-col mt-36">
+          <p class="text-xl mb-10">{{ $t("Skills") }}</p>
+
+          <p class="text-5xl leading-tight cursor-default">
+            NextJs ReactJs TailwindCss Redux Zustand Git Github Jest NestJs
+            Context API
+          </p>
         </div>
 
         <div class="flex flex-col mt-36">
