@@ -8,7 +8,7 @@ export default defineI18nConfig(() => ({
     en: {
       myName: "Sina Zare",
       underNameText: "can work with code!",
-      headerText: "Independent Creative Developer based in Iran",
+      headerText: "Independent Creative Developer with 3Y of Experience",
       projectsText: "Projects",
       resumeText: "Resume",
       contactText: "Contact",
