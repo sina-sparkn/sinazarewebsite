@@ -20,7 +20,7 @@
 
         <div class="mt-36 hover:underline hover:underline-offset-2">
           <a
-            href="https://drive.google.com/file/d/1gXYSqmXzKbejmZ3mpQOW9ePtWSvZ7ZiC/view?usp=drive_link"
+            href="/2025_RESUME.pdf"
             target="_blank"
             rel="noopener noreferrer"
             class="text-5xl"
