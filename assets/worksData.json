@@ -12,7 +12,7 @@
     "id": 2,
     "projectName": "SF-Symbols",
     "alternativeName": "React Icon Collection",
-    "url": "https://resilient-croquembouche-38b9a5.netlify.app/",
+    "url": "https://sf-symbols.vercel.app/",
     "tech": "NextJs",
     "year": 2023,
     "status": "Done"
@@ -21,7 +21,7 @@
     "id": 3,
     "projectName": "Last Portfolio Website",
     "alternativeName": "2023 Edition of My Website",
-    "url": "https://endearing-ganache-e75b6c.netlify.app/",
+    "url": "https://sinazareoldwebsite.vercel.app/",
     "tech": "NextJs",
     "year": 2023,
     "status": "Done"
@@ -30,7 +30,7 @@
     "id": 4,
     "projectName": "Gazar Machine",
     "alternativeName": "",
-    "url": "https://heroic-croquembouche-d56bbe.netlify.app/",
+    "url": "https://gazarmig-4ol6k3lsl-ssparknts-projects.vercel.app",
     "tech": "NextJs",
     "year": 2024,
     "status": "Done"
@@ -38,6 +38,15 @@
   {
     "id": 5,
     "projectName": "UCP-Construction Equipment Shop",
+    "alternativeName": "",
+    "url": "/",
+    "tech": "NextJs",
+    "year": 2025,
+    "status": "Ongoing..."
+  },
+  {
+    "id": 6,
+    "projectName": "Negar Super App",
     "alternativeName": "",
     "url": "/",
     "tech": "NextJs",

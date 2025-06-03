@@ -31,9 +31,19 @@
         <div class="flex flex-col mt-36">
           <p class="text-xl mb-10">{{ $t("Skills") }}</p>
 
-          <p class="text-5xl leading-tight cursor-default">
-            NextJs ReactJs TailwindCss Redux Zustand Git Github Jest NestJs
-            Context API
+          <p
+            class="*:border *:border-zinc-800 *:px-4 *:rounded-md hover:*:bg-white/5 *:duration-150 flex flex-wrap gap-2 text-5xl leading-tight cursor-default"
+          >
+            <span>NextJs</span>
+            <span>ReactJs</span>
+            <span>TailwindCss</span>
+            <span>Redux</span>
+            <span>Zustand</span>
+            <span>Git</span>
+            <span>Github</span>
+            <span>Jest</span>
+            <span>NestJs</span>
+            <span>Context API</span>
           </p>
         </div>
 
