@@ -52,5 +52,14 @@
     "tech": "NextJs",
     "year": 2025,
     "status": "Ongoing..."
+  },
+  {
+    "id": 7,
+    "projectName": "songbazz",
+    "alternativeName": "music stream app",
+    "url": "https://persian-music-website.vercel.app/",
+    "tech": "NextJs",
+    "year": 2025,
+    "status": "Ongoing..."
   }
 ]
