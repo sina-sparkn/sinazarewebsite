@@ -61,5 +61,14 @@
     "tech": "NextJs",
     "year": 2025,
     "status": "Ongoing..."
+  },
+  {
+    "id": 8,
+    "projectName": "Cheghad???",
+    "alternativeName": "Currency Price Traking App",
+    "url": "https://chand-shode-currency-tracking-app.vercel.app/",
+    "tech": "NextJs",
+    "year": 2025,
+    "status": "Done"
   }
 ]
