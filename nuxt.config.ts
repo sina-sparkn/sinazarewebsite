@@ -31,10 +31,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: [
-    "~/assets/css/main.css",
-    "~/public/fonts.css"
-  ],
+  css: ["~/assets/css/main.css"],
   modules: [
     "@nuxtjs/color-mode", 
     "@nuxtjs/i18n"
