@@ -1,5 +1,9 @@
 <template>
   <div>
+    <!-- SEO Components -->
+    <SEO />
+    <SearchEngineVerification />
+    
     <div class="w-full flex flex-col md:flex-row mt-10">
       <div class="lg:w-1/2 w-full md:fixed">
         <div class="text-6xl md:text-7xl font-bold">

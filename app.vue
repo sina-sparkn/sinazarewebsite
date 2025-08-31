@@ -12,6 +12,27 @@
 <script setup>
 const colorMode = useColorMode();
 
+// Global SEO configuration
+useHead({
+  htmlAttrs: {
+    lang: 'en'
+  },
+  meta: [
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'format-detection', content: 'telephone=no' },
+    { name: 'theme-color', content: '#000000' },
+    { name: 'msapplication-TileColor', content: '#000000' },
+    { name: 'apple-mobile-web-app-capable', content: 'yes' },
+    { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }
+  ],
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    { rel: 'manifest', href: '/manifest.json' },
+    { rel: 'apple-touch-icon', href: '/favicon.ico' }
+  ]
+});
+
 function changeTheme() {
   if (colorMode.preference === "light") {
     colorMode.preference = "dark";

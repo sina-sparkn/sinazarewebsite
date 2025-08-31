@@ -5,6 +5,20 @@ export default defineNuxtConfig({
 
   app: {
     pageTransition: { name: "page", mode: "out-in" },
+    head: {
+      htmlAttrs: {
+        lang: 'en'
+      },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'format-detection', content: 'telephone=no' }
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'canonical', href: 'https://sinazare.xyz' }
+      ]
+    }
   },
 
   postcss: {
@@ -15,13 +29,31 @@ export default defineNuxtConfig({
   },
 
   css: ["~/assets/css/main.css"],
-  modules: ["@nuxtjs/color-mode", "@nuxt/fonts", "@nuxtjs/i18n"],
+  modules: [
+    "@nuxtjs/color-mode", 
+    "@nuxtjs/i18n"
+  ],
+  
   i18n: {
-    vueI18n: "./i18n.config.ts", // if you are using custom path, default
+    vueI18n: "./i18n.config.ts",
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: "i18n_redirected",
-      redirectOn: "root", // recommended
+      redirectOn: "root",
     },
+    locales: [
+      { code: "en", iso: "en-US", name: "English" },
+      { code: "fa", iso: "fa-IR", name: "فارسی" }
+    ],
+    defaultLocale: "en",
+    strategy: "prefix_except_default"
   },
+
+  // Runtime Config
+  runtimeConfig: {
+    public: {
+      siteUrl: 'https://sinazare.xyz',
+      siteName: 'Sina Zare Portfolio'
+    }
+  }
 });
