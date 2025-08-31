@@ -11,8 +11,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'satoshi': ['Satoshi', 'sans-serif'],
-        'sans': ['Satoshi', 'sans-serif'],
+        'satoshi': ['var(--font-satoshi)'],
+        'sans': ['var(--font-satoshi)'],
       },
     },
   },

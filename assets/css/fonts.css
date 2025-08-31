@@ -1,0 +1,15 @@
+/* Satoshi Font Family - Local Font Declarations */
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('/fonts/Satoshi-Variable.woff') format('woff');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Font fallback stack for better cross-platform compatibility */
+:root {
+  --font-satoshi: 'Satoshi', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
