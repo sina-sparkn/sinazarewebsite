@@ -3,10 +3,10 @@
     <!-- SEO Components -->
     <SEO />
     <SearchEngineVerification />
-    
+
     <div class="w-full flex flex-col md:flex-row mt-10">
       <div class="lg:w-1/2 w-full md:fixed">
-        <div class="text-6xl md:text-7xl font-bold">
+        <div class="text-6xl md:text-7xl font-medium">
           <h1 class="cursor-default">{{ $t("myName") }}</h1>
           <p class="text-xl mt-1 cursor-default">• {{ $t("underNameText") }}</p>
         </div>
@@ -15,7 +15,7 @@
       <div class="lg:w-1/2 w-full mt-36 lg:mt-0 right-0">
         <div class="flex justify-between items-center w-full">
           <h2>
-            <div class="text-6xl font-bold cursor-default">
+            <div class="text-6xl font-medium cursor-default">
               {{ $t("headerText") }}
             </div>
           </h2>

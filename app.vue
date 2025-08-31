@@ -56,6 +56,6 @@ function changeTheme() {
 /* Font settings */
 body {
   font-family: "Satoshi", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 </style>
