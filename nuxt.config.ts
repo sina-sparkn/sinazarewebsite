@@ -16,7 +16,10 @@ export default defineNuxtConfig({
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'canonical', href: 'https://sinazare.xyz' }
+        { rel: 'canonical', href: 'https://sinazare.xyz' },
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600;700;800;900&display=swap' }
       ]
     }
   },
@@ -28,7 +31,10 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ["~/assets/css/main.css"],
+  css: [
+    "~/assets/css/main.css",
+    "~/public/fonts.css"
+  ],
   modules: [
     "@nuxtjs/color-mode", 
     "@nuxtjs/i18n"

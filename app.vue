@@ -53,8 +53,12 @@ function changeTheme() {
   filter: blur(1rem);
 }
 
+/* Font settings */
 body {
-  font-family: Satoshi;
+  font-family: 'Satoshi', sans-serif;
   font-weight: 900;
 }
+
+/* Ensure Satoshi font is loaded */
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600;700;800;900&display=swap');
 </style>

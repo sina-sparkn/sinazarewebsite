@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Import Satoshi Font */
+@import url('https://fonts.googleapis.com/css2?family=Satoshi:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Base font settings */
+@layer base {
+  html {
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  body {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 900;
+  }
+}
+
+/* Custom font classes */
+.font-satoshi {
+  font-family: 'Satoshi', sans-serif;
+}
+
+.font-satoshi-light {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 300;
+}
+
+.font-satoshi-normal {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+}
+
+.font-satoshi-medium {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+}
+
+.font-satoshi-semibold {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 600;
+}
+
+.font-satoshi-bold {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 700;
+}
+
+.font-satoshi-extrabold {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 800;
+}
+
+.font-satoshi-black {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 900;
+}
