@@ -3,7 +3,7 @@
     "id": 1,
     "projectName": "Moonink",
     "alternativeName": "Web3 Shopping Dapp",
-    "url": "https://moonink.vercel.app/",
+    "url": "https://moonink.vercel.app",
     "tech": "NextJs",
     "year": 2022,
     "status": "Done"
@@ -12,7 +12,7 @@
     "id": 2,
     "projectName": "SF-Symbols",
     "alternativeName": "React Icon Collection",
-    "url": "https://sf-symbols.vercel.app/",
+    "url": "https://sf-symbols.vercel.app",
     "tech": "NextJs",
     "year": 2023,
     "status": "Done"
@@ -21,7 +21,7 @@
     "id": 3,
     "projectName": "Last Portfolio Website",
     "alternativeName": "2023 Edition of My Website",
-    "url": "https://sinazareoldwebsite.vercel.app/",
+    "url": "https://sinazareoldwebsite.vercel.app",
     "tech": "NextJs",
     "year": 2023,
     "status": "Done"
@@ -39,7 +39,7 @@
     "id": 5,
     "projectName": "Gtat.ir",
     "alternativeName": "",
-    "url": "https://gtat.ir/",
+    "url": "https://gtat.ir",
     "tech": "NextJs",
     "year": 2025,
     "status": "Ongoing..."
@@ -57,7 +57,7 @@
     "id": 7,
     "projectName": "songbazz",
     "alternativeName": "music stream app",
-    "url": "https://persian-music-website.vercel.app/",
+    "url": "https://persian-music-website.vercel.app",
     "tech": "NextJs",
     "year": 2025,
     "status": "Ongoing..."
@@ -66,7 +66,7 @@
     "id": 8,
     "projectName": "Cheghad???",
     "alternativeName": "Currency Price Traking App",
-    "url": "https://chand-shode-currency-tracking-app.vercel.app/",
+    "url": "https://cheghadshod.ir",
     "tech": "NextJs",
     "year": 2025,
     "status": "Done"
